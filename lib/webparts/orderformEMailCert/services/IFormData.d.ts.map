@@ -1,0 +1,1 @@
+{"version":3,"file":"IFormData.d.ts","sourceRoot":"","sources":["../../../../src/webparts/orderformEMailCert/services/IFormData.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,SAAS;IACtB,WAAW,EAAE,MAAM,CAAC;IACpB,GAAG,EAAE,MAAM,CAAC;IACZ,mBAAmB,EAAE,MAAM,CAAA;IAC3B,yBAAyB,EAAE,MAAM,CAAA;CACpC"}

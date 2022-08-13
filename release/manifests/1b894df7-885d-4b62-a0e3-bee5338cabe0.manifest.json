@@ -1,0 +1,83 @@
+{
+  "id": "1b894df7-885d-4b62-a0e3-bee5338cabe0",
+  "alias": "OrderformEMailCertWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "Orderform EMail Cert"
+      },
+      "description": {
+        "default": "Orderform EMail Cert description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "Orderform EMail Cert"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "<!-- PATH TO CDN -->"
+    ],
+    "entryModuleId": "orderform-e-mail-cert-web-part",
+    "scriptResources": {
+      "orderform-e-mail-cert-web-part": {
+        "type": "path",
+        "path": "orderform-e-mail-cert-web-part_9cf9e1eebeb16849b8d8.js"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.15.2"
+      },
+      "OrderformEMailCertWebPartStrings": {
+        "type": "localizedPath",
+        "paths": {
+          "de-CH": "OrderformEMailCertWebPartStrings_de-ch_7358223dcc47f42b62c9c1ae97ee7a43.js",
+          "en-US": "OrderformEMailCertWebPartStrings_en-us_ab0373b2a20479e31e6fa297c55f351c.js"
+        },
+        "defaultPath": "OrderformEMailCertWebPartStrings_en-us_ab0373b2a20479e31e6fa297c55f351c.js"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.15.2"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.15.2"
+      },
+      "react": {
+        "type": "component",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "version": "16.13.1"
+      },
+      "react-dom": {
+        "type": "component",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "version": "16.13.1"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6",
+        "version": "1.15.2"
+      }
+    }
+  }
+}

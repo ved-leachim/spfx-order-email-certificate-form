@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "order-email-certificate-form-client-side-solution",
+    "id": "d1612350-fcf8-4184-8fe9-191a0717e4c0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "order-email-certificate-form description"
+      },
+      "longDescription": {
+        "default": "order-email-certificate-form description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "order-email-certificate-form Feature",
+        "description": "The feature that activates elements of the order-email-certificate-form solution.",
+        "id": "e9bae71d-6135-4184-8e83-1b038d6e309b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/order-email-certificate-form.sppkg"
+  }
+}

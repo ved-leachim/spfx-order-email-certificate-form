@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "order-email-certificate-form",
+    "libraryId": "d1612350-fcf8-4184-8fe9-191a0717e4c0",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "order-email-certificate-form",
+    "solutionShortDescription": "order-email-certificate-form description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

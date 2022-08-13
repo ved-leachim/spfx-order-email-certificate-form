@@ -1,0 +1,37 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.container {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: [form] 70% [additional] 30% [ending];
+  grid-template-rows: [row1-start] auto [row1-end] auto [row2-end];
+  gap: 10px;
+}
+
+.form {
+  grid-column-start: form;
+  grid-column-end: additional;
+}
+
+.additional {
+  grid-column-start: additional;
+  grid-column-end: ending;
+  grid-row-start: row1-end;
+  grid-row-end: row2-end;
+}
+
+.sideControls > * {
+  position: relative;
+  bottom: -28px;
+}
+
+.additionalFields {
+  margin-top: 10px;
+  padding-left: 10px;
+  width: 68.1%;
+}
+
+.submitButton {
+  margin-top: 15px;
+}
+
